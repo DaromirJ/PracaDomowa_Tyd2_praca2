@@ -7,12 +7,12 @@ namespace PracaDomowa
         static void Main(string[] args)
         {
             
-            //Zadanie 1
+            //Zadanie 1 (porównanie dwóch liczb)
             { 
                 int a;
                 int b;
 
-                Console.WriteLine("Zadanie 1");
+                Console.WriteLine("Zadanie 1 (porównanie dwóch liczb)");
 
                 Console.WriteLine("Podaj pierwszą liczbę całkowitą");
                 int.TryParse(Console.ReadLine(), out a);
@@ -31,8 +31,8 @@ namespace PracaDomowa
                     Console.ReadLine();
                 }
             }
-            
-            //Zadanie 2
+
+            //Zadanie 2 (czy liczba jest parzysta)
             {
                 int numb;
 
@@ -52,8 +52,8 @@ namespace PracaDomowa
                     Console.ReadLine();
                 }
             }
-            
-            //Zadanie 3
+
+            //Zadanie 3 (czy liczba jest ujemna czy dodatnia)
             {
                 int numb;
 
@@ -75,7 +75,7 @@ namespace PracaDomowa
                 }
             }
             
-            //Zadanie 4
+            //Zadanie 4 (czy podany rok jest przestępny)
             {
                 int year;
 
@@ -96,7 +96,7 @@ namespace PracaDomowa
                 }
             }
             
-            //Zadanie 5 czy możesz się ubiegać o stanowisko: posła, sentaora, premiera, prezydenta?
+            //Zadanie 5 (czy możesz się ubiegać o stanowisko: posła, sentaora, premiera, prezydenta?)
             {
                 int age;
 
@@ -113,7 +113,7 @@ namespace PracaDomowa
                 Console.ReadLine();                
             }
             
-            //Zadanie 6 Kategorie wzrostu?
+            //Zadanie 6 (Kategorie wzrostu)
             {
                 int growth;
 
@@ -267,7 +267,7 @@ namespace PracaDomowa
                 Console.WriteLine($"Z podanych długości boków {result} zbudować trójką");
             }
             
-            //Zadanie 11 Kategorie wzrostu?
+            //Zadanie 11 (Kategorie wzrostu)
             {
                 int ocena;
 
@@ -301,7 +301,7 @@ namespace PracaDomowa
                 Console.ReadLine();
             }
             
-            //Zadanie 12 Nazwy dni tygodnia
+            //Zadanie 12 (Nazwy dni tygodnia)
             {
                 int dayNo;
 
@@ -338,7 +338,7 @@ namespace PracaDomowa
                 Console.ReadLine();
             }
             
-            //Zadanie 13 operacje na dwóch podanych liczbach
+            //Zadanie 13 (operacje na dwóch podanych liczbach)
             {
                 Console.WriteLine("Podaj pierwszą liczbę całkowitą:");
                 int no1 = int.Parse(Console.ReadLine());
