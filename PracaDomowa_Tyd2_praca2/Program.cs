@@ -6,7 +6,7 @@ namespace PracaDomowa
     {
         static void Main(string[] args)
         {
-            /*
+            
             //Zadanie 1 (porównanie dwóch liczb)
             { 
                 int a;
@@ -237,7 +237,7 @@ namespace PracaDomowa
 
                 Console.WriteLine($"Jaka pogoda? {result}");
             }
-            */
+            
             //Zadanie 10 (możliwość zbudowania trójkąta z podanych długości boków)
             {
                 Console.WriteLine("Zadanie 10 (możliwość zbudowania trójkąta z podanych długości boków)");
