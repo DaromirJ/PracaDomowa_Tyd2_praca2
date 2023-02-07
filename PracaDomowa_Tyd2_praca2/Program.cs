@@ -84,7 +84,7 @@ namespace PracaDomowa
                 Console.WriteLine("Podaj dowolną rok, a sprawdzę czy to rok przestępny.");
                 int.TryParse(Console.ReadLine(), out year);
 
-                if (year % 4 == 0)
+                if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))
                 {
                     Console.WriteLine($"Rok {year} jest przestępny");
                     Console.ReadLine();
